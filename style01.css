@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Mate SC', 'Calisto MT',serif;
+    color: darkblue;
+
+}
+
+p {
+    font-family: 'Montserrat','Lucida Bright', serif;
+}
+
+.texto {
+    font-family: 'Montserrat','Lucida Bright', serif;
+    font-style: italic;
+    font-weight: 400;
+    border: 1px darkblue dotted;
+    padding: 10px;
+}
