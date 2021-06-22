@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: azure;
+    height: 100%;
+}
+
+/* Parte do cabeçalho: foto de fundo e título da página*/
+
+#cabecalho {
+    background-image: url('https://www.parmais.com.br/wp-content/uploads/2016/01/o-que-%C3%A9-mercado-financeiro600x400.jpg');
+    background-position: center center; /* Center the image */
+    background-repeat: repeat;
+    height: 300px;
+    width: 100%;
+}
+
+#cabecalho h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    margin: auto 0;
+    text-shadow: 0 0 5px white;
+    font-family: 'Libre Baskerville', 'Rockwell', serif;
+ }
+
+ /* Parte da navegação: entre as 5 seções: Fixa, Variável, Câmbio, Derivativos e Fundos*/
+
+ #navegacao {
+     background-color: darkblue;
+     position: -webkit-sticky; /* Required for Safari */
+     position: sticky;
+     top: 0;
+     text-align: justify;
+ }
+
+ #navegacao a {
+     text-align: center;
+     color: white;
+     display: inline-block;
+     font-size: 20px;
+     font-family: 'Mate SC', 'Calisto MT',serif;
+     padding: 10px;
+     margin: 5px;
+     /*border: azure 0.5px solid;*/
+     text-decoration-line: none;
+     /* The text-decoration-line property sets the kind of text decoration to use (like underline, overline, line-through).*/
+ }
+
+ #navegacao a:hover {
+    border: azure 0.5px solid;
+}
+
+/* Parte da definição de mercado financeiro*/
+
+ .definicao p{
+     font-style: italic;
+     font-weight: 200;
+     text-align: center;
+     line-height: 2;
+     font-family: 'Montserrat','Lucida Bright', serif;
+     font-size: 20px;
+     padding: 25px;
+     border: darkblue 2px solid;
+     margin: 50px 100px;
+ }
+
+ /* Para destaque ao longo do texto*/
+ span.destaque {
+     color: darkblue;
+     font-weight: 800;
+ }
+
+/* Para o texto em si*/
+
+.text {
+    text-align: justify;
+    line-height: 2;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Montserrat','Lucida Bright', serif;
+}
+
+.text a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: darkblue;
+    background-image: linear-gradient(white,cornflowerblue,white);
+}
+
+.text a:hover {
+    background-image: linear-gradient(cornflowerblue, white, cornflowerblue);
+}
+
+/* Títulos h3*/
+.Explicacoes h3 {
+    font-family: 'Mate SC', 'Calisto MT',serif;
+    text-align: center;
+    font-size: 30px;
+    color:darkblue;
+}
+
+/* Parte do comentário*/
+
+#Mens {
+    margin-bottom: 20px;
+}
+
+.mens {
+    font-size: 15px;
+}
+
+#message {
+    height: 100px;
+    width: 400px;
+    color: darkblue;
+    text-align: justify;
+    background-color: rgb(200, 222, 255);
+    padding-top: 0;
+}
+
+.botao {
+    width: 50px;
+    height: 20px;
+    color: blue;
+    background-color: rgb(200, 222, 255);
+
+}
+/* Parte final da página: o rodapé com a referênicia*/
+
+p.rodape {
+    position: relative;
+    font-size: 20px;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Montserrat','Lucida Bright', serif;
+    padding: 10px;
+    width: 100%;
+    background-color:darkblue;
+    color:rgb(235, 255, 254);
+}
+
+a.rodape {
+    text-decoration: none;
+    color:rgb(235, 255, 254)
+}
+
+a.rodape:hover{
+    border: azure 0.5px solid;
+}
