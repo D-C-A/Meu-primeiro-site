@@ -14,7 +14,7 @@
     <title>Recebendo sua mensagem</title>
 </head>
 <body>
-    <h1> Muito obrigada, <?= "$_POST[name]" ?>, pela sua contribuição </h1>
+    <h1> Muito obrigada <?= "$_POST[name]" ?> pela sua contribuição </h1>
     <p> Apenas para confirmar, sua mensagem enviada foi: <br> <br> 
         <span class = "texto"> <?= "$_POST[message]"?> </span> </p>
     <p> Ficamos muito felizes em receber sua mensagem, assim que possível estaremos analisando sua sugestão e caso 
