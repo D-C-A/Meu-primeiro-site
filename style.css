@@ -110,19 +110,13 @@ body {
 
 #Mens {
     margin-bottom: 20px;
-}
-
-.mens {
     font-size: 15px;
 }
 
 #message {
-    height: 100px;
-    width: 400px;
     color: darkblue;
-    text-align: justify;
     background-color: rgb(200, 222, 255);
-    padding-top: 0;
+    padding: 10;
 }
 
 .botao {
