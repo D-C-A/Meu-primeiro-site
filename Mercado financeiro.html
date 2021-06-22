@@ -74,8 +74,13 @@
       <div id = "Mens">
         <p class = "mens"> Encontrou algum erro? Alguma sugestão de conteúdo? Pode enviar uma mensagem:</p>
         <form action="response.php" method="POST">
-          <label class = "mens" for="message"> Sua mensagem: </label> <br>
-          <input type ="text" name ="message" id="message" placeholder="Pode deixar aqui sua sugestão, correção..." size= 100 maxlenght = 140>
+          <label for = "name"> Seu nome: </label>
+          <input type="text" name = "name" id = "name" maxlength="20"> <br>
+          <label for = "email"> Seu email: </label>
+          <input type="text" name = "email" id = "email" required> <br>
+          <label for="message"> Sua mensagem: </label> <br>
+          <textarea type ="text" name ="message" id="message" rows="5" cols="20" wrap="hard" spellcheck="true"
+          placeholder = "Escreva aqui sua sugestão, crítica, elogio..." maxlength = 140></textarea> 
           <input type="submit" value="Enviar" class = "botao">
         </form>        
       </div>  
